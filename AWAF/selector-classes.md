@@ -4,7 +4,7 @@ A big part of FFLIB is the selector classes, which are used to encapsulate all S
 
 However, one advantage of selector classes is that because the query is wrapped with a class, you can mock that class during tests. This can be orders of magnitude easier than inserting dozens of records and trying to pass all validation rules in a test class.
 
-As an alternative to FFLIB selectors, we recommend [SOQL Lib](https://soql.beyondthecloud.dev/docs/basic-features) by Piotr Gajek. 
+As an alternative to FFLIB selectors, we recommend [SOQL Lib](https://soql.beyondthecloud.dev/docs/getting-started) by Piotr Gajek.
 
 ```apex{4}
 Account account = (Account) SOQL.of(Account.SObjectType)
